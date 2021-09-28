@@ -14,8 +14,8 @@ label{
 display: block;
 text-align: center;
 margin: auto;
-width:40vw;
-height:10vw;
+width:20vw;
+height:5vw;
 border-color: black;
 border-radius: 0.5rem;
 }
@@ -28,7 +28,8 @@ background-color:black;
 color: white;
 }
 .output{
-
+font-size: x-large;
+margin:2rem 1rem;
 }
 body{
     background-color: rgb(187, 141, 84);
