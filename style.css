@@ -1,3 +1,36 @@
 label{
     display: block;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    font-size: x-large;
+
+}
+::placeholder{
+    font-size: larger;
+}
+.input{
+display: block;
+text-align: center;
+margin: auto;
+width:40vw;
+height:10vw;
+border-color: black;
+border-radius: 0.5rem;
+}
+.button{
+padding: 1rem;
+margin-top: 1.5rem;
+border-color: rgb(187, 141, 84);
+font-size: large;
+background-color:black;
+color: white;
+}
+.output{
+
+}
+body{
+    background-color: rgb(187, 141, 84);
+    text-align: center;
 }
