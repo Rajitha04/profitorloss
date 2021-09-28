@@ -7,15 +7,15 @@ var output=document.querySelector("#output")
 
 function profitlosscalculator(intial,number,current){
     if(intial>current){
-var loss=(intial-current)*quantity;
+var loss=(intial-current)*number;
 var losspercentage=(loss/intial)*100;
 
-showmessage('your loss is ${loss} and profit percentage is ${losspercentage}%');
+showmessage(`your loss is ${loss} and profit percentage is ${losspercentage}%`);
     }
     else if(intial<current){
-var profit=(current-intial)*quantity;
+var profit=(current-intial)*number;
 var profitpercentage=(profit/intial)*100;
-showmessage('your profit is ${profit} and profit percentage is ${profitpercentage}%');
+showmessage(`your profit is ${profit} and profit percentage is ${profitpercentage}%`);
     }
     else{
 showmessage("no loss no profit");
@@ -26,9 +26,9 @@ function showmessage(message){
 }
 
 function onclickhandler(){
-var intial=intialprice.value;
-var number=quantity.value;
-var current=currentprice.value;
+var intial=Number(intialprice.value);
+var number=Number(quantity.value);
+var current=Number(currentprice.value);
 profitlosscalculator(intial,number,current)
 
 }
