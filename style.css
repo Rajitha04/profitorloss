@@ -8,13 +8,13 @@ label{
 
 }
 ::placeholder{
-    font-size: larger;
+    font-size: medium;
 }
 .input{
 display: block;
 text-align: center;
 margin: auto;
-width:20vw;
+width:30vw;
 height:5vw;
 border-color: black;
 border-radius: 0.5rem;
