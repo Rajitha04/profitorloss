@@ -10,7 +10,7 @@ function profitlosscalculator(intial,number,current){
 var loss=(intial-current)*number;
 var losspercentage=(loss/intial)*100;
 
-showmessage(`your loss is ${loss} and profit percentage is ${losspercentage}%`);
+showmessage(`your loss is ${loss} and loss percentage is ${losspercentage}%`);
     }
     else if(intial<current){
 var profit=(current-intial)*number;
